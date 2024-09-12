@@ -3,7 +3,7 @@ ocr_import_info:
   bdrc_scan_id: W4PD2074
   source: bdrc
   ocr_info:
-    timestamp: '2022-08-25T00:00:00Z'
+    timestamp: '2023-02-01T00:00:00Z'
   batch_id: batch-0001
   software_id: norbuketaka
   expected_default_language: bo
@@ -11,8 +11,8 @@ ocr_import_info:
 default_language: bo
 source: https://library.bdrc.io
 initial_creation_type: ocr
-imported: 2023-01-21 16:26:48.231774
-last_modified: 2022-08-25 00:00:00+00:00
+imported: 2024-09-12 14:18:51.415388
+last_modified: 2023-02-01 00:00:00+00:00
 parser: https://github.com/OpenPecha/Norbu-Keta-eText-import/blob/main/norbu_ketaka_parser.py
 source_metadata:
   id: http://purl.bdrc.io/resource/W4PD2074
@@ -25,14 +25,6 @@ source_metadata:
   - bo
   author: གཡུ་ཐོག་རྙིང་མ་ཡོན་ཏན་མགོན་པོ།
 bases:
-  I4PD2077:
-    source_metadata:
-      id: http://purl.bdrc.io/resource/I4PD2077
-      total_pages: 642
-      volume_number: 2
-      volume_pages_bdrc_intro: 2
-    base_file: I4PD2077.txt
-    order: 1
   I4PD2076:
     source_metadata:
       id: http://purl.bdrc.io/resource/I4PD2076
@@ -40,6 +32,14 @@ bases:
       volume_number: 1
       volume_pages_bdrc_intro: 2
     base_file: I4PD2076.txt
+    order: 1
+  I4PD2077:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4PD2077
+      total_pages: 642
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    base_file: I4PD2077.txt
     order: 2
   I4PD2078:
     source_metadata:
